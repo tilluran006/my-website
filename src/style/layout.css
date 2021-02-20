@@ -1,0 +1,205 @@
+.landing {
+	margin: 3rem auto;
+  font-family: "Poppins", sans-serif;
+  color : #484848;
+  text-rendering: optimizelegibility;
+}
+
+
+
+.name{
+	float:left;
+	font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;   
+   	text-align: right;
+    margin: 10%;
+    margin-left: 20%;
+    text-shadow: 0 1px 1px #747474, 
+     
+      -3px 10px 1px #D4D1D1,
+      -4px 11px 1px #D4D1D1,
+      -5px 12px 1px #D4D1D1,
+      -6px 12px 1px #D4D1D1;
+}
+
+
+
+.desc1{
+	font-family: "Poppins", sans-serif;
+	float:left;
+	font-size: 1.5rem;
+    font-weight: 100;
+    max-width: 600;     	
+   	display:inline;
+    margin-left: 20%;
+    margin-top: -8%;
+    opacity: 0.5
+    
+}
+
+
+
+
+.image1{
+	
+  	width:15%;
+ 	border-radius: 50%;  
+ 	border: 3px solid #484848;
+  	
+  	margin : 10%;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.container{
+	float:left;
+	font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.2;      	
+	display: inline;	
+    margin-left: 19%;
+    margin-right: auto
+}
+
+
+a {
+    color: #484848;
+}
+
+a:hover {
+    color: #484848;
+    opacity:0.5;
+}
+
+.resume{
+	text-shadow: #197018 1px 0 10px;
+}
+.porfoliolink{
+	text-shadow: #9239D7 1px 0 10px;
+}
+.porfoliolink:hover{
+	color: #484848;
+    opacity:0.5;
+}
+
+
+.linkedin{
+	text-shadow: #215F8D 1px 0 10px;
+}
+.portfolio{
+	
+	float:left;
+	font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.2;      	
+	display: inline;	
+    margin-left: 20%;
+     margin-right: 20%;
+    margin-top: 15%
+}
+
+#portfolio-header{
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 30% 0.5em;
+  background-position: 0 88%;
+  
+	font-size: 2.5rem;
+	color:#05386B;
+    font-weight: 400;
+    line-height: 1.2;   
+   	text-align: right;
+   	margin-bottom: 2%;
+   	margin-top:-1%;
+   	
+}
+
+.title-header{
+background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 30% 0.5em;
+  background-position: 0 100%;
+  
+	color:#05386B;
+	
+	margin-top:5%;
+	margin-left:-2%
+}
+
+.sub-title-header{
+background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 30% 0.2em;
+  background-position: 0 100%;
+  
+	color:#05386B;
+	
+	margin-top:5%;
+	margin-left:2%
+}
+.descriptions{
+	
+	padding:1%;
+	background-color: #EDF5E1;
+	float:left;
+	font-size: 1.25rem;
+    font-weight: 100;
+    line-height: 1.2;      	
+	display: inline;
+	margin-top: 2%;	
+	margin-bottom: 2%;	
+	margin-left:2%;
+	margin-right:5%;
+	text-align: justify;
+  	text-justify: inter-word;
+	
+
+}
+
+ul {
+
+	
+	padding:1%;
+	background-color: #EDF5E1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display: block;
+  color: #484848;
+  text-align: center;
+  padding: 2%;
+  text-decoration: none;
+}
+
+.icons{
+	width: 55px;
+	height:50px;
+}
+
+em{
+	background-image: linear-gradient(120deg, #FED4D3 0%, #FFCBCA 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 1em;
+  background-position: 0 100%;
+}
+
+.footer{
+
+	font-size: 1rem;
+	color:#05386B;
+    font-weight: 100;
+    line-height: 1.2;   
+   	text-align: left;	
+   	opacity:0.8;
+   	display:inline;
+	margin-top:20%;
+	margin-left:20%
+}
