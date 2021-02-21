@@ -24,7 +24,7 @@ import "../style/layout.css"
 const IndexPage = () => {
 
 
-	if (typeof window === undefined) return
+	
 	return (<section class="landing">	
 
 			<div class=".row1">
