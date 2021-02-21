@@ -1,7 +1,8 @@
-import React from "react"
-import { Link } from "gatsby-link"
-import TypeWriterEffect from 'react-typewriter-effect';
+import React from "react";
+import { Link } from "gatsby-link";
+//import TypeWriterEffect from 'react-typewriter-effect';
 import scrollTo from 'gatsby-plugin-smoothscroll';
+
 //
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
@@ -18,12 +19,12 @@ import xml from '../images/icons/xml.png';
 import eclipse from '../images/icons/eclipse.png';
 
 import "../style/layout.css"
-import desc from "../components/description"
 
 
 const IndexPage = () => {
 
-	
+
+	if (typeof window === undefined) return
 	return (<section class="landing">	
 
 			<div class=".row1">
@@ -32,22 +33,8 @@ const IndexPage = () => {
 						
 			</div>	
 
-				<p class="desc1">
-				<TypeWriterEffect
-				            textStyle={{ 
-				            	fontFamily: "sans-serif",			
-				            	fontSize: '1.5rem',
-							    fontWeight: 100,
-							    maxWidth: 600,     	
-							   	display:'inline',    							
-				        	}}
-				        	loop={true}
-				            startDelay={100}
-				            cursorColor="black"
-				            text="Have 3 Years of experience in Software Development"
-				            typeSpeed={200}
-				          
-				          />
+				<p class="desc1">Software Engineer ,Learner ,Bibliophile
+				
 				 </p>
 				 
 			<Container class="container">
@@ -192,6 +179,7 @@ const IndexPage = () => {
 							
 	</section>)
 		
+
 }
 
 export default IndexPage
